@@ -66,7 +66,7 @@ function App() {
       <nav className="navbar">
         <div className="container">
           <div className="navbar-brand">
-            <h1 className="navbar-item is-size-4">Ocean Token (OCT)</h1>
+            <h1 className="navbar-item is-size-4">Zenith Protocol (ZNT)</h1>
           </div>
           <div id="navbarMenu" className="navbar-menu">
             <div className="navbar-end is-align-items-center">
@@ -90,27 +90,27 @@ function App() {
       <section className="hero is-fullheight">
         <div className="faucet-hero-body">
           <div className="container has-text-centered main-content">
-            <h1 className="title is-1">Faucet</h1>
-            <p>Fast and reliable. 50 OCT/day.</p>
+            <h1 className="title is-1">LSDFi on Arbitrum</h1>
+            <p>Big things are coming to Layer2 - we're helping launch a collateralized LSD stablecoin protocol on Arbitrum. </p>
             <div className="box address-box">
               <div className="columns">
                 <div className="column is-four-fifths">
                   <input
                     className="input is-medium"
                     type="text"
-                    placeholder="Enter your wallet address (0x...)"
+                    placeholder="Enter the amount of LSTs for minting zUSD (.1 rETH, .2 wstETH, etc.)"
                   />
                 </div>
                 <div className="column">
                   <button className="button is-link is-medium">
-                    GET TOKENS
+                    MINT zUSD
                   </button>
                 </div>
               </div>
               <article className="panel is-grey-darker">
-                <p className="panel-heading">Transaction Data</p>
+                <p className="panel-heading">Your Transaction Data</p>
                 <div className="panel-block">
-                  <p>transaction data</p>
+                  <p>On-chain data</p>
                 </div>
               </article>
             </div>
